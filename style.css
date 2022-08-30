@@ -108,7 +108,7 @@ body {
 }
 
 .card-text {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 2%;
 }
 
@@ -126,6 +126,7 @@ body {
 
 .icon-text {
     margin-right: 10%;
+    margin-left: 10%;
     margin-top: 4%;
 }
 
@@ -176,8 +177,30 @@ a {
     margin-bottom: 2%;
 }
 
+.selected-btn {
+    display: block;
+    background-color: orange;
+    border-radius: 10px;
+    inline-size: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.match {
+    display: flex;
+}
+
+.flag{
+    width: 70%;
+    margin: 5%
+}
+
 
 @media only screen and (max-width: 688px) {
+    .flag {
+        width: 50%;
+        margin: 2%;
+    }
     .side-panel {
         display: flex;
         flex-direction: column;
