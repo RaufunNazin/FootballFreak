@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+.white {
+    color: white;
+}
+
+.banner {
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    margin: 50px 150px;
+    border-radius: 20px;
+    padding: 60px 30px;
+    margin-bottom: 100px;
+}
+
+.banner-header {
+    font-size: 100px;
+    inline-size: 700px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.sub-text {
+    font-size: 25px;
+    inline-size: 500px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.banner-image {
+    height: 700px;
+    margin-left: 50px;
+}
+
+.banner-button {
+    display: flex;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.banner-button-icon {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#button-text {
+    font-size: 20px
+}
+
+.footer {
+    background-color: rgb(19, 19, 19);
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.footer-top {
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer-sub {
+    color: whitesmoke;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.select-btn {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.side-panel {
+    display: inline;
+    background-color: rgb(19, 19, 19);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
